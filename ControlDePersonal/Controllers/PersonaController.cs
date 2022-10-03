@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ControlDePersonal.Data;
 using ControlDePersonal.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ControlDePersonal.Controllers
 {
@@ -18,8 +19,9 @@ namespace ControlDePersonal.Controllers
         {
             _context = context;
         }
-
+   
         // GET: Persona
+        [Authorize]
         public async Task<IActionResult> Index()
         {
               return _context.Persona != null ? 
@@ -28,6 +30,7 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Persona/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Persona == null)
@@ -46,6 +49,7 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Persona/Create
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             return View();
@@ -68,6 +72,7 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Persona/Edit/5
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Persona == null)
@@ -119,6 +124,7 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Persona/Delete/5
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Persona == null)

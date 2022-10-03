@@ -8,145 +8,145 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ControlDePersonal
 build_property.RootNamespace = ControlDePersonal
-build_property.ProjectDir = c:\Users\l_ame\Documents\Proyectos\PruebaTecnica\ControlDePersonal\
+build_property.ProjectDir = C:\Users\l_ame\Documents\Proyectos\PruebaTecnica\ControlDePersonal\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\l_ame\Documents\Proyectos\PruebaTecnica\ControlDePersonal
+build_property.MSBuildProjectDirectory = C:\Users\l_ame\Documents\Proyectos\PruebaTecnica\ControlDePersonal
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Create.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Delete.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Details.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Edit.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Index.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Departamento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Create.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Delete.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Details.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Edit.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Index.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Empleado/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Create.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Delete.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Details.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Edit.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Index.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Genero/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Home/Index.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Home/Privacy.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Create.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Delete.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Details.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Edit.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Index.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Persona/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Create.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Delete.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Details.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Edit.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Index.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Puesto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlc3RvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Shared/Error.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/_ViewImports.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/_ViewStart.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Shared/_Layout.cshtml]
+[C:/Users/l_ame/Documents/Proyectos/PruebaTecnica/ControlDePersonal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5jyysew4zx

@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ControlDePersonal.Data;
 using ControlDePersonal.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ControlDePersonal.Controllers
 {
+    [Authorize]
     public class GeneroController : Controller
     {
         private readonly ApplicationDbContext _context;
