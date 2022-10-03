@@ -9,7 +9,7 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table" id="tblPuestos">
     <thead>
         <tr>
             <th>
@@ -39,3 +39,46 @@
 }
     </tbody>
 </table>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<button onclick="exportData()">
+   <span class="glyphicon glyphicon-download"></span>
+   Descargar Reporte
+</button>
+
+<script>
+function exportData(){
+    var table = document.getElementById("tblPersonas");
+ 
+    var rows =[];
+ 
+    for(var i=0,row; row = table.rows[i];i++){
+        
+        column1 = row.cells[0].innerText;
+        column2 = row.cells[1].innerText;
+ 
+    
+        rows.push(
+            [
+                column1,
+                column2
+            ]
+        );
+ 
+        }
+        csvContent = "data:text/csv;charset=utf-8,";
+         
+        rows.forEach(function(rowArray){
+            row = rowArray.join(",");
+            csvContent += row + "\r\n";
+        });
+ 
+        
+        var encodedUri = encodeURI(csvContent);
+        var link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "Reporte_Puestos.csv");
+        document.body.appendChild(link);
+         
+        link.click();
+}
+</script>

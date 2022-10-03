@@ -8,6 +8,7 @@ public class Persona
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Column("id_persona")]
+    [Display(Name ="Id Persona")]
     public int intIdPersona { get; set;}
 
     [Display(Name ="Nombres")]
