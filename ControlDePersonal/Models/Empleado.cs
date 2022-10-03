@@ -20,7 +20,7 @@ public class Empleado
     [Display(Name ="Puesto")]
     [Required(ErrorMessage ="{0} es obligatorio")]
     [Column("id_puesto")]
-    public ICollection<Puesto> intIdPuesto { get; set; }
+    public int intIdPuesto { get; set; }
 
     [Display(Name ="Fecha de Contratación")]
     [Required(ErrorMessage ="{0} es obligatorio")]

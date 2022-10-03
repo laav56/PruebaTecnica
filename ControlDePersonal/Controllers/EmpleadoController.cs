@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ControlDePersonal.Data;
 using ControlDePersonal.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace ControlDePersonal.Controllers
 {
@@ -21,7 +20,6 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Empleado
-        [Authorize]
         public async Task<IActionResult> Index()
         {
               return _context.Empleado != null ? 
@@ -30,7 +28,6 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Empleado/Details/5
-        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Empleado == null)
@@ -49,7 +46,6 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Empleado/Create
-        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             return View();
@@ -60,7 +56,7 @@ namespace ControlDePersonal.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("intIdEmpleado,intIdPersona,dateFecContratacion,dcmSalario")] Empleado empleado)
+        public async Task<IActionResult> Create([Bind("intIdEmpleado,intIdPersona,intIdPuesto,dateFecContratacion,dcmSalario")] Empleado empleado)
         {
             if (ModelState.IsValid)
             {
@@ -72,7 +68,6 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Empleado/Edit/5
-        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Empleado == null)
@@ -93,7 +88,7 @@ namespace ControlDePersonal.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("intIdEmpleado,intIdPersona,dateFecContratacion,dcmSalario")] Empleado empleado)
+        public async Task<IActionResult> Edit(int id, [Bind("intIdEmpleado,intIdPersona,intIdPuesto,dateFecContratacion,dcmSalario")] Empleado empleado)
         {
             if (id != empleado.intIdEmpleado)
             {
@@ -124,7 +119,6 @@ namespace ControlDePersonal.Controllers
         }
 
         // GET: Empleado/Delete/5
-        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Empleado == null)

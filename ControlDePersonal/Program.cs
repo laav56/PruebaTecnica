@@ -15,7 +15,15 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
     //.AddRoles<IdentityRole>();
+/*builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>();*/
 builder.Services.AddControllersWithViews();
+
+/*builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("RequiereRolAdmin",
+         policy => policy.RequireRole("admin"));
+});*/
 
 builder.Services.AddMvc(obj =>
 {

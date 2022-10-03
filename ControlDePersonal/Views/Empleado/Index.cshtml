@@ -16,6 +16,9 @@
                 @Html.DisplayNameFor(model => model.intIdPersona)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.intIdPuesto)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.dateFecContratacion)
             </th>
             <th>
@@ -29,6 +32,9 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.intIdPersona)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.intIdPuesto)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.dateFecContratacion)
@@ -58,34 +64,37 @@ function exportData(){
     var rows =[];
  
     for(var i=0,row; row = table.rows[i];i++){
+        
         column1 = row.cells[0].innerText;
         column2 = row.cells[1].innerText;
         column3 = row.cells[2].innerText;
+        column4 = row.cells[3].innerText;
  
-
+    
         rows.push(
             [
                 column1,
                 column2,
-                column3
+                column3,
+                column4
             ]
         );
  
         }
         csvContent = "data:text/csv;charset=utf-8,";
-        
+         
         rows.forEach(function(rowArray){
             row = rowArray.join(",");
             csvContent += row + "\r\n";
         });
-
+ 
+        
         var encodedUri = encodeURI(csvContent);
         var link = document.createElement("a");
         link.setAttribute("href", encodedUri);
         link.setAttribute("download", "Reporte_Empleados.csv");
         document.body.appendChild(link);
-
+         
         link.click();
 }
 </script>
-
