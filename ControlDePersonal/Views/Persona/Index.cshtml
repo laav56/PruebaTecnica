@@ -1,0 +1,75 @@
+@model IEnumerable<ControlDePersonal.Models.Persona>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.intIdPersona)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strNombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strApellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dateFecNacimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dblCUI)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.strNIT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.intIdGenero)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.intIdPersona)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strNombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strApellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateFecNacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dblCUI)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.strNIT)
+            </td>
+            <td>
+                @if(item.intIdGenero == 1){
+                    @Html.Label("Masculino")
+                }else{
+                    @Html.Label("Femenino")
+                }
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.intIdPersona">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.intIdPersona">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.intIdPersona">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,61 @@
+@model ControlDePersonal.Models.Persona
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Persona</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="intIdPersona" />
+            <div class="form-group">
+                <label asp-for="strNombre" class="control-label"></label>
+                <input asp-for="strNombre" class="form-control" />
+                <span asp-validation-for="strNombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strApellido" class="control-label"></label>
+                <input asp-for="strApellido" class="form-control" />
+                <span asp-validation-for="strApellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dateFecNacimiento" class="control-label"></label>
+                <input asp-for="dateFecNacimiento" class="form-control" />
+                <span asp-validation-for="dateFecNacimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dblCUI" class="control-label"></label>
+                <input asp-for="dblCUI" class="form-control" />
+                <span asp-validation-for="dblCUI" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="strNIT" class="control-label"></label>
+                <input asp-for="strNIT" class="form-control" />
+                <span asp-validation-for="strNIT" class="text-danger"></span>
+            </div>
+           <div class="form-group">
+                <label asp-for="intIdGenero" class="control-label"></label>
+                <select class="form-control" asp-for="intIdGenero">
+                    <option value="1">Masculino</option>
+                    <option value="2">Femenino</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
